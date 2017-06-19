@@ -1,7 +1,7 @@
 {
   "name": "tictactoe",
   "version": "1.0.0",
-  "description": "A tic tac toe game made in under 20 minutes",
+  "description": "Tic-tac-toe game built in 20 minutes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,15 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/maxbraz/ticTacToe.git"
   },
-  "keywords": [
-    "tic",
-    "tac",
-    "toe"
-  ],
   "author": "Max Braz",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/maxbraz/ticTacToe/issues"
   },
-  "homepage": "https://github.com/maxbraz/ticTacToe#readme"
+  "homepage": "https://github.com/maxbraz/ticTacToe#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "command-line-args": "^4.0.6",
+    "prompt": "^1.0.0"
+  }
 }
